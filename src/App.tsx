@@ -11,16 +11,16 @@ function App() {
   const { register, watch, setValue } = useForm();
 
   const [check, setCheck] = useState(false)
-  const [state, setState] = useState({
-    deliveryName: "",
-    deliveryLastName: "" // deliveryAddress: "", // deliveryPhone: ""   
-  });  
 
-  const [stateBillData, setStateBillData] = useState({
-    billingName: "",
-    billingLastName: ""  
-  });
+  // const [state, setState] = useState({
+  //   deliveryName: "",
+  //   deliveryLastName: "" // deliveryAddress: "", // deliveryPhone: ""   
+  // });  
 
+  // const [stateBillData, setStateBillData] = useState({
+  //   billingName: "",
+  //   billingLastName: ""  
+  // });
 
   const shipDeliveryName = watch('deliveryName');
   const shipDeliveryLastName = watch('deliveryLastName');
